@@ -1,0 +1,19 @@
+<apex:page >
+    <apex:toolbar id="theToolBar">
+        <apex:outputText value="Sample Toolbar"></apex:outputText>
+        <apex:toolbarGroup itemSeparator="line" id="theToolbargp1">
+            <apex:outputLink value="https://login.salesforce.com/">Salesforce</apex:outputLink>
+            <apex:outputLink value="https://platform.openai.com/playground">OpenAI Playground</apex:outputLink>
+        </apex:toolbarGroup>
+        
+        <apex:toolbarGroup itemSeparator="line" location="right" id="theToolbargp2">
+            <apex:form >
+                <apex:inputText id="theInputText">Enter Name:</apex:inputText>
+                <apex:commandButton value="Save" id="theCommandButton" />
+            
+            </apex:form>
+        
+        </apex:toolbarGroup>
+    
+    </apex:toolbar>
+</apex:page>

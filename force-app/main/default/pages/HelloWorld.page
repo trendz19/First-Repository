@@ -1,0 +1,11 @@
+<apex:page controller="exploreSetterGettersController"  >
+
+    
+    Hello {! name}
+    
+   <apex:form >
+       <apex:inputText value="{! name}" id="name"/>
+       <apex:commandButton value="Save" action="{! Save}"/>
+    </apex:form>
+    
+</apex:page>

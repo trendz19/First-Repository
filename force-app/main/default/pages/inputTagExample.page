@@ -1,0 +1,17 @@
+<apex:page >
+    <apex:form >
+        <h1>please fill the below details: <br/><br/></h1>
+        Enter Name: <apex:inputText id="name" /> <br/><br/>
+        Enter Age: <apex:inputText id="age" /> <br/><br/>
+        Set a Username: <apex:inputText id="username" /> <br/><br/>
+        Enter a password:<apex:inputSecret id="password"/><br/><br/>
+        <apex:outputLabel value="Enter Secret" for="key"></apex:outputLabel><br/><br/>
+        <apex:inputText id="key"/><br/><br/>
+        <apex:outputLink value="https://www.google.co.in/">Google</apex:outputLink>
+        <apex:panelBar >
+            <apex:panelBarItem label="Item1" onenter="alert('Entering item 1');" onleave="alert('Leaving item 1');">Hello, How are you?</apex:panelBarItem>
+            <apex:panelBarItem label="Item2" onenter="alert('Entering item 2');" onleave="alert('Leaving item 2');">StrawBerry</apex:panelBarItem>
+            <apex:panelBarItem label="Item3" onenter="alert('Entering item 3');" onleave="alert('Leaving item 3');">Coconut</apex:panelBarItem>
+        </apex:panelBar>
+    </apex:form>
+</apex:page>

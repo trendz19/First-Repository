@@ -1,0 +1,13 @@
+<apex:page >
+<apex:form >
+<apex:pageBlock title="Anish">
+<apex:pageblockSection title="Section">
+<apex:pageBlockSectionItem > Cricket </apex:pageBlockSectionItem>
+</apex:pageblockSection>
+<apex:pageblockButtons >
+<apex:commandButton value="save"/>
+<apex:commandButton value="cancel"/>
+</apex:pageblockButtons>
+</apex:pageBlock>
+</apex:form>
+</apex:page>

@@ -1,0 +1,7 @@
+<apex:page renderAs="pdf" >
+    
+    <center>
+        <h1> Welcome to Salesforce.com</h1>
+    </center> 
+     
+</apex:page>

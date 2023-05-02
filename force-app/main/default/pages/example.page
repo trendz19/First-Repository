@@ -1,0 +1,11 @@
+<apex:page sidebar="false" showHeader="false">
+  <h1> Welcome {!$User.FirstName}</h1>
+  <p> Today's Date is {! today()} </p>
+  <p> Next week it will be {!today()+7}</p>
+  <p> the year today is {! year(today())}</p>
+  <p> tomorrow will be the day number {! day(today())+1}</p>
+  <p> square root of 9 is {! sqrt(9)}</p>
+  <p> Min of {! min(10,50,12,45,9,8,5)}</p>
+  <p> {! day(today()-15)}</p>
+  {! if(Day(today())>25,'it is on or before 26th', 'false it is after 26th')}
+</apex:page>

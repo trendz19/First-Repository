@@ -1,0 +1,35 @@
+<apex:page >
+    <apex:form >
+        <apex:pageBlock title="First Block">
+            <apex:pageBlockSection title="First Section">
+                <apex:pageBlockSectionItem >MyTutorialRack</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >Salesforce Admin</apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >Salesforce Developer</apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+        
+        
+            <apex:pageBlock title="Second Block">
+                <apex:pageBlockSection title="Second Section">
+                    <apex:pageBlockSectionItem >First Item</apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem >Second Item</apex:pageBlockSectionItem>
+        
+                </apex:pageBlockSection>
+            
+                
+            </apex:pageBlock>
+            
+            <apex:pageBlockButtons >
+                <apex:commandButton value="Save"/>
+                <apex:commandButton value="Close"/>
+            
+            </apex:pageBlockButtons>
+            
+        </apex:pageBlock>
+    
+        
+    </apex:form>
+    
+    <apex:pageMessage summary="Error message please look in to it" severity="warning" strength="3">  </apex:pageMessage>
+    
+    
+</apex:page>

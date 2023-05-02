@@ -1,0 +1,33 @@
+<apex:page >
+    <apex:form >
+    
+        <apex:pageBlock title="Test Block" >
+            <apex:pageBlockSection title="Test Block Section">
+                <apex:pageBlockSectionItem > Hello </apex:pageBlockSectionItem> <br/>
+                <apex:pageBlockSectionItem > World </apex:pageBlockSectionItem> <br/>
+                <apex:pageBlockSectionItem > Bye </apex:pageBlockSectionItem> <br/>
+            </apex:pageBlockSection>
+            
+            <apex:pageBlockSection title="Test Block 2">
+                <apex:pageBlockSectionItem >
+                    Section Item 1
+                </apex:pageBlockSectionItem><br/>
+                <apex:pageBlockSectionItem >
+                    Section Item 2
+                </apex:pageBlockSectionItem><br/>
+                <apex:pageBlockSectionItem >
+                    Section Item 3
+                </apex:pageBlockSectionItem><br/>
+                
+            </apex:pageBlockSection>
+            
+            <apex:pageBlockButtons >
+                <apex:commandButton value="save"/>
+                <apex:commandButton value="cancel"/>
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+    
+        
+    </apex:form>
+    
+</apex:page>

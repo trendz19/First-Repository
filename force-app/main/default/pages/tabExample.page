@@ -1,0 +1,8 @@
+<apex:page id="thePage">
+    
+    <apex:tabPanel switchType="client">
+        <apex:tab label="Home" name="Home1" id="tab1">Home is a place where memories are created and shared with loved ones. It is a place where you can feel comfortable and safe. Home is a place that is full of love, laughter, and support. Home is a place where you can be yourself and express your true feelings. Home is a place that you can go to relax and find peace. It is a place where you can make plans and dream of the future. Home is a place where you can make mistakes and learn from them.</apex:tab>
+        <apex:tab label="Office" name="Office1" id="tab2">The office environment is an important factor in employee satisfaction and productivity. A productive workplace is one that is well-organized and has a comfortable atmosphere, with comfortable furniture, adequate lighting, and ample storage space. A conducive working environment is one in which employees are encouraged to take breaks and are provided with the necessary resources and support to do their best work.</apex:tab>
+    
+    </apex:tabPanel>
+</apex:page>
